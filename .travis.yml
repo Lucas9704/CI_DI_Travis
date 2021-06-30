@@ -14,4 +14,4 @@ deploy:
   on:
     branch: master
 notifications:
-  slack: puebascircle:TO02QRx5beoDFlwxJVV1xpmm
+  slack: $SLACK_ACCESS_TOKEN
