@@ -1,15 +1,5 @@
 language: node_js
 node_js:
   - "stable"
-cache:
-  directories:
-  - node_modules
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $github_token
-  local_dir: build
-  on:
-    branch: master
 notifications:
   slack: $SLACK_ACCESS_TOKEN
