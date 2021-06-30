@@ -1,5 +1,4 @@
 language: node_js
-node_js:
-  - "stable"
+
 notifications:
-  slack: $SLACK_ACCESS_TOKEN
+  slack: puebascircle:TO02QRx5beoDFlwxJVV1xpmm
